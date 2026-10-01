@@ -26,7 +26,7 @@ export default function Particles({
   const mousePosition = useMousePosition();
   const mouse = useRef<{ x: number; y: number }>({ x: 0, y: 0 });
   const canvasSize = useRef<{ w: number; h: number }>({ w: 0, h: 0 });
-  const dpr = typeof window !== "undefined" ? window.devicePixelRatio : 1;
+  const dpr = typeof window !== "undefined" ? Math.min(window.devicePixelRatio || 1, 1.25) : 1;
   const animationFrameId = useRef<number>(0);
   const isUnmounted = useRef(false);
 
@@ -182,6 +182,12 @@ export default function Particles({
   };
 
   const animate = () => {
+    if (document.hidden) {
+      if (!isUnmounted.current) {
+        animationFrameId.current = window.requestAnimationFrame(animate);
+      }
+      return;
+    }
     clearContext();
     circles.current.forEach((circle: Circle, i: number) => {
       // Handle the alpha value

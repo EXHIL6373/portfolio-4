@@ -83,7 +83,7 @@ export default function RootLayout({
         <ResponsiveLightfall />
         <Particles
           className="fixed inset-0 -z-20 animate-fade-in pointer-events-none"
-          quantity={60}
+          quantity={25}
         />
         <Preloader>
           <TooltipProvider>

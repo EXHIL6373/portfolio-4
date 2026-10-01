@@ -11,6 +11,7 @@ export const ResponsiveLightfall = () => {
   return (
     <div className="fixed inset-0 -z-30 w-full h-full pointer-events-none overflow-hidden">
       <Lightfall
+        dpr={isMobile ? 0.75 : 1}
         colors={['#8A2BE2', '#5227FF', '#FF007F', '#A6C8FF', '#00F0FF']}
         backgroundColor="#030014"
         speed={isMobile ? 0.35 : 0.3}

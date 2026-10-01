@@ -100,7 +100,7 @@ vec2 sceneC(vec2 frag, vec2 r) {
   float z = 0.0;
   float d = 1e3;
   vec4 O = vec4(0.0);
-  for (int k = 0; k < 39; k++) {
+  for (int k = 0; k < 16; k++) {
     if (d <= 1e-4) break;
     O = z * normalize(vec4(P, uZoom, 0.0)) - vec4(0.0, 4.0, 1.0, 0.0) / 4.5;
     d = 1.0 - sqrt(length(O * O));
@@ -229,9 +229,10 @@ export const Lightfall: React.FC<LightfallProps> = ({
     let renderer: any;
     try {
       renderer = new Renderer({
-        dpr: dpr ?? (typeof window !== 'undefined' ? Math.min(window.devicePixelRatio || 1, 2) : 1),
+        dpr: dpr ?? (typeof window !== 'undefined' ? Math.min(window.devicePixelRatio || 1, 1) : 1),
         alpha: true,
-        antialias: true
+        antialias: false,
+        powerPreference: 'high-performance'
       });
     } catch (e) {
       console.error('WebGL initialization failed in Lightfall:', e);
@@ -318,6 +319,7 @@ export const Lightfall: React.FC<LightfallProps> = ({
 
     const loop = (t: number) => {
       rafRef.current = requestAnimationFrame(loop);
+      if (document.hidden) return;
       uniforms.iTime.value = t * 0.001;
       if (mouseDampening > 0) {
         if (!lastTimeRef.current) lastTimeRef.current = t;
