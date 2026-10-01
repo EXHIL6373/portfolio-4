@@ -7,6 +7,10 @@ import certifications, { Certification } from "@/data/certifications";
 import { cn } from "@/lib/utils";
 
 const CertificationsSection = () => {
+    if (!certifications || certifications.length === 0) {
+        return null;
+    }
+
     return (
         <section id="certifications" className="relative w-full py-16 md:py-32 px-4 sm:px-6 md:px-12 lg:px-24 pointer-events-none overflow-visible">
             <Link href={"#certifications"} className="pointer-events-auto block w-fit mx-auto mb-10 md:mb-16">
