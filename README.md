@@ -15,7 +15,7 @@
     Professional, modern portfolio showcasing immersive 3D experiences, specialized technical skills, and high-impact projects.
     <br />
     <br />
-    <a href="https://aakashjs.vercel.app"><strong> View Live Preview »</strong></a>
+    <a href="https://portfolio-4-inky.vercel.app"><strong> View Live Preview »</strong></a>
   </p>
 </div>
 
@@ -126,6 +126,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 **Aakash JS** - [jsaakash22@gmail.com](mailto:jsaakash22@gmail.com)
 
-Project Link: [https://github.com/JS-Aakash/Portfolio](https://github.com/JS-Aakash/Portfolio)
+Project Link: [https://github.com/EXHIL6373/portfolio-4](https://github.com/EXHIL6373/portfolio-4)
 
 <p align="right">(<a href="#hero">back to top</a>)</p>

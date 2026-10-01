@@ -37,7 +37,7 @@ const config = {
   openToHire: true,
   email: "jsaakash22@gmail.com",
   phone: "8667832633",
-  site: "https://js-aakash.github.io",
+  site: "https://portfolio-4-inky.vercel.app",
 
   get ogImg() {
     return this.site + "/assets/seo/og-image.png";
