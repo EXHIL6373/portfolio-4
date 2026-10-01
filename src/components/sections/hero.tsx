@@ -337,7 +337,7 @@ const TechProfileImage = () => {
         <div className="relative w-full h-full rounded-[60%_40%_30%_70%/60%_30%_70%_40%] overflow-hidden border-2 border-white/10 shadow-2xl transition-transform duration-500 group-hover:scale-[1.02] touch-none">
           <Image
             src="/assets/me.png"
-            alt="Aakash JS"
+            alt="Alex Carter"
             fill
             className="object-cover"
             priority
@@ -359,7 +359,7 @@ const TechProfileImage = () => {
           >
             <Image
               src="/assets/me1.png"
-              alt="Aakash JS Active"
+              alt="Alex Carter Active"
               fill
               className="object-cover"
               priority

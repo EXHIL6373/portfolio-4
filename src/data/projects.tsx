@@ -483,7 +483,7 @@ const projects: Project[] = [
       ],
     },
     live: "",
-    github: "https://github.com/JS-Aakash/ContextAI",
+    github: "https://github.com/EXHIL6373/ContextAI",
     get content() {
       return (
         <div>
@@ -527,7 +527,7 @@ const projects: Project[] = [
       ],
     },
     live: "",
-    github: "https://github.com/JS-Aakash/deployops",
+    github: "https://github.com/EXHIL6373/deployops",
     get content() {
       return (
         <div>
@@ -573,7 +573,7 @@ const projects: Project[] = [
       ],
     },
     live: "",
-    github: "https://github.com/JS-Aakash/SentinelX",
+    github: "https://github.com/EXHIL6373/SentinelX",
     get content() {
       return (
         <div>
@@ -621,7 +621,7 @@ const projects: Project[] = [
       ],
     },
     live: "https://farmtopharma.netlify.app/",
-    github: "https://github.com/JS-Aakash/Farm2Pharma",
+    github: "https://github.com/EXHIL6373/Farm2Pharma",
     get content() {
       return (
         <div>
@@ -663,7 +663,7 @@ const projects: Project[] = [
       ],
     },
     live: "https://neurocare-715n.onrender.com/",
-    github: "https://github.com/JS-Aakash/NeuroCare",
+    github: "https://github.com/EXHIL6373/NeuroCare",
     get content() {
       return (
         <div>
@@ -707,8 +707,8 @@ const projects: Project[] = [
         PROJECT_SKILLS.numpy,
       ],
     },
-    live: "https://github.com/JS-Aakash/BaitBlocker",
-    github: "https://github.com/JS-Aakash/BaitBlocker",
+    live: "https://github.com/EXHIL6373/BaitBlocker",
+    github: "https://github.com/EXHIL6373/BaitBlocker",
     get content() {
       return (
         <div>
@@ -754,7 +754,7 @@ const projects: Project[] = [
       ],
     },
     live: "https://spinshop360.vercel.app/",
-    github: "https://github.com/JS-Aakash/SpinShop-360",
+    github: "https://github.com/EXHIL6373/SpinShop-360",
     get content() {
       return (
         <div>
@@ -799,7 +799,7 @@ const projects: Project[] = [
       ],
     },
     live: "https://www.youtube.com/watch?v=khv42VC4j8g",
-    github: "https://github.com/JS-Aakash/Git-it-done",
+    github: "https://github.com/EXHIL6373/Git-it-done",
     get content() {
       return (
         <div>
@@ -840,7 +840,7 @@ const projects: Project[] = [
       ],
     },
     live: "https://nearbynow.netlify.app/",
-    github: "https://github.com/JS-Aakash/NearbyNow",
+    github: "https://github.com/EXHIL6373/NearbyNow",
     get content() {
       return (
         <div>

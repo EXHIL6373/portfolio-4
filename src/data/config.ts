@@ -1,14 +1,14 @@
 const config = {
-  title: "Aakash JS | Full Stack Developer",
+  title: "Alex Carter | Full Stack Developer",
   description: {
     long: "Aspiring Software Developer passionate about full-stack development, system design, and AI/ML innovation. Strong proficiency in Java, Python, and JavaScript, with hands-on experience building scalable Web and Android applications.",
     short:
-      "Discover the portfolio of Aakash JS, a passionate Full Stack Developer specializing in AI, ML, and scalable applications.",
+      "Discover the portfolio of Alex Carter, a passionate Full Stack Developer specializing in AI, ML, and scalable applications.",
   },
   keywords: [
-    "Aakash JS",
-    "Aakash",
-    "JS Aakash",
+    "Alex Carter",
+    "Alex",
+    "Carter Alex",
     "Full Stack Developer",
     "Frontend Developer",
     "Backend Developer",
@@ -29,14 +29,14 @@ const config = {
     "System Design",
     "AI/ML",
   ],
-  author: "Aakash JS",
-  handle: "aakashjs",
+  author: "Alex Carter",
+  handle: "alexcarter",
   headline: "Full Stack Developer | System Designer",
   careerGoal: "Building high-performance scalable systems and AI-powered applications.",
   bio: "Aspiring Software Developer passionate about full-stack development, system design, and AI/ML innovation. Strong proficiency in Java, Python, and JavaScript, with hands-on experience building scalable Web and Android applications.",
   openToHire: true,
-  email: "jsaakash22@gmail.com",
-  phone: "8667832633",
+  email: "alexcarter.dev@gmail.com",
+  phone: "+1 555-0199",
   site: "https://portfolio-4-inky.vercel.app",
 
   get ogImg() {
@@ -44,12 +44,12 @@ const config = {
   },
   resume: "https://drive.google.com/file/d/1hFjr5zUdN9GPsgRVrLEUigB0AVsBzFTP/view?usp=sharing",
   social: {
-    linkedin: "https://www.linkedin.com/in/aakashjs/",
+    linkedin: "https://www.linkedin.com/in/alexcarter-dev/",
     twitter: "",
-    github: "https://github.com/JS-Aakash",
-    instagram: "https://www.instagram.com/js_aakash/",
-    whatsapp: "https://wa.me/918667832633?text=Hi%20Aakash,%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect!",
+    github: "https://github.com/EXHIL6373",
+    instagram: "https://www.instagram.com/alexcarter.dev/",
+    whatsapp: "https://wa.me/15550199?text=Hi%20Alex,%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect!",
   },
-  leetcodeUsername: "JS_Aakash",
+  leetcodeUsername: "alexcarter",
 };
 export { config };

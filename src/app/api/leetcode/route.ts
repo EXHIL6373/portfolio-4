@@ -6,7 +6,7 @@ const CACHE_DURATION = 1000 * 60 * 15; // 15 minutes
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
-  const username = searchParams.get("username") || "JS_Aakash";
+  const username = searchParams.get("username") || "alexcarter";
 
   // Check cache
   const cached = cache.get(username);
@@ -144,13 +144,13 @@ export async function GET(request: Request) {
     const mergedData = {
       profile: {
         username: matchedUser.username || username,
-        name: matchedUser.profile?.realName || "Aakash JS",
+        name: matchedUser.profile?.realName || "Alex Carter",
         avatar: matchedUser.profile?.userAvatar || "/assets/me.png",
         ranking: matchedUser.profile?.ranking || 37360,
         reputation: matchedUser.profile?.reputation || 0,
-        school: matchedUser.profile?.school || "Kongu Engineering College",
-        gitHub: "https://github.com/JS-Aakash",
-        linkedIN: "https://www.linkedin.com/in/aakashjs/",
+        school: matchedUser.profile?.school || "Computer Science & Engineering",
+        gitHub: "https://github.com/EXHIL6373",
+        linkedIN: "https://www.linkedin.com/in/alexcarter-dev/",
         about: matchedUser.profile?.aboutMe || "Full Stack Developer | System Design"
       },
       solved: {
@@ -224,13 +224,13 @@ function generateMockData(username: string) {
   return {
     profile: {
       username: username,
-      name: "Aakash JS",
+      name: "Alex Carter",
       avatar: "/assets/me.png",
       ranking: 37360,
       reputation: 154,
-      school: "Kongu Engineering College",
-      gitHub: "https://github.com/JS-Aakash",
-      linkedIN: "https://www.linkedin.com/in/aakashjs/",
+      school: "Computer Science & Engineering",
+      gitHub: "https://github.com/EXHIL6373",
+      linkedIN: "https://www.linkedin.com/in/alexcarter-dev/",
       about: "Full Stack Developer | System Design"
     },
     solved: {

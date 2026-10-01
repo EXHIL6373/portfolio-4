@@ -10,9 +10,7 @@ const Email = z.object({
 });
 export async function POST(req: Request) {
   try {
-    const resend = new Resend(process.env.RESEND_API_KEY);
     const body = await req.json();
-    console.log(body);
     const {
       success: zodSuccess,
       data: zodData,
@@ -24,8 +22,18 @@ export async function POST(req: Request) {
         { status: 400 }
       );
 
+    // If RESEND_API_KEY is not configured, simulate success (works out-of-the-box without API key)
+    if (!process.env.RESEND_API_KEY) {
+      console.log("Contact submission received (demo mode - no RESEND_API_KEY):", zodData);
+      return Response.json({
+        id: "demo-message-id",
+        message: "Message received successfully!",
+      });
+    }
+
+    const resend = new Resend(process.env.RESEND_API_KEY);
     const { data: resendData, error: resendError } = await resend.emails.send({
-      from: "Porfolio <onboarding@resend.dev>",
+      from: "Portfolio <onboarding@resend.dev>",
       to: [config.email],
       subject: "Contact me from portfolio",
       react: EmailTemplate({

@@ -33,7 +33,7 @@ const certifications: Certification[] = [
         issuer: "Kongu Engineering College",
         issuerLogo: "/assets/certifications/mldl.jpg",
         issueDate: "Feb 2026",
-        credentialUrl: "https://www.linkedin.com/in/aakashjs/details/certifications/",
+        credentialUrl: "https://www.linkedin.com/in/alexcarter-dev/details/certifications/",
         certificateImage: "/assets/certifications/mldl.jpg",
     },
     {
@@ -87,7 +87,7 @@ const certifications: Certification[] = [
         issuer: "Kongu Engineering College",
         issuerLogo: "/assets/certifications/Mobile App Development with Flutter.jpg",
         issueDate: "Sep 2025",
-        credentialUrl: "https://www.linkedin.com/in/aakashjs",
+        credentialUrl: "https://www.linkedin.com/in/alexcarter-dev",
         certificateImage: "/assets/certifications/Mobile App Development with Flutter.jpg",
     },
 ];

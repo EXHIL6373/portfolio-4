@@ -1,13 +1,13 @@
-# 🚀 3D Interactive Developer Portfolio | Aakash JS
+# 🚀 3D Interactive Developer Portfolio | Alex Carter
 
 <p align="center">
   <a href="https://vercel.com/"><img alt="Vercel" src="https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=for-the-badge&logo=vercel"></a>
   <a href="#license"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge"></a>
-  <a href="https://www.linkedin.com/in/aakashjs/"><img alt="Linkedin - Aakash JS" src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555"></a>
+  <a href="https://www.linkedin.com/in/alexcarter-dev/"><img alt="Linkedin - Alex Carter" src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555"></a>
 </p>
 
 <div align="center">
-  <h1 align="center">Aakash JS</h1>
+  <h1 align="center">Alex Carter</h1>
   <p align="center">
     <strong>Full Stack Developer | System Designer | AI/ML Enthusiast</strong>
   </p>
@@ -57,8 +57,8 @@ This is my **personal 3D portfolio website**, designed to push the boundaries of
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/JS-Aakash/Portfolio.git
-   cd Portfolio
+   git clone https://github.com/EXHIL6373/portfolio-4.git
+   cd portfolio-4
    ```
 
 2. **Install dependencies**
@@ -66,8 +66,8 @@ This is my **personal 3D portfolio website**, designed to push the boundaries of
    npm install
    ```
 
-3. **Set up Environment Variables**
-   Create a `.env.local` file in the root:
+3. **Set up Environment Variables (Optional)**
+   Create a `.env.local` file in the root if you want custom email forwarding:
    ```env
    RESEND_API_KEY=your_resend_api_key_here
    ```
@@ -124,7 +124,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📧 Contact
 
-**Aakash JS** - [jsaakash22@gmail.com](mailto:jsaakash22@gmail.com)
+**Alex Carter** - [alexcarter.dev@gmail.com](mailto:alexcarter.dev@gmail.com)
 
 Project Link: [https://github.com/EXHIL6373/portfolio-4](https://github.com/EXHIL6373/portfolio-4)
 
