@@ -37,7 +37,7 @@ const config = {
   openToHire: true,
   email: "alexcarter.dev@gmail.com",
   phone: "+1 555-0199",
-  site: "https://portfolio-4-inky.vercel.app",
+  site: "https://portfolio-4-ivgj.vercel.app",
 
   get ogImg() {
     return this.site + "/assets/seo/og-image.png";

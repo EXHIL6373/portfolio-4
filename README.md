@@ -15,7 +15,7 @@
     Professional, modern portfolio showcasing immersive 3D experiences, specialized technical skills, and high-impact projects.
     <br />
     <br />
-    <a href="https://portfolio-4-inky.vercel.app"><strong> View Live Preview »</strong></a>
+    <a href="https://portfolio-4-ivgj.vercel.app"><strong> View Live Preview »</strong></a>
   </p>
 </div>
 
